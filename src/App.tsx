@@ -54,7 +54,6 @@ function App() {
   const [tooltipContent, setTooltipContent] = useState("")
   const [isShown, setIsShown] = useState(false)
   const [selectedProvince, setSelectedProvince] = useState("")
-  const [numRelawan, setNumRelawan] = useState(0)
   const [data, setData] = useState(DataProvinsi)
 
   const colorScale = scaleQuantile<string>()

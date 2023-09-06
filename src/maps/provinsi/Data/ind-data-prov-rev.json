@@ -1,138 +1,268 @@
 [
   {
     "id": "Aceh",
-    "provinsi": "Aceh"
+    "provinsi": "Aceh",
+    "total_relawan": 56,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        101,
+        0.7
+      ],
+      "scale": 3200
+    }
   },
   {
     "id": "Bali",
-    "provinsi": "Bali"
+    "provinsi": "Bali",
+    "total_relawan": 60,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        116.12,
+        -9.25
+      ],
+      "scale": 13000
+    }
   },
   {
     "id": "Bangka-Belitung",
-    "provinsi": "Kepulauan Bangka Belitung"
+    "provinsi": "Kepulauan Bangka Belitung",
+    "total_relawan": 15,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        109.56,
+        -4.6
+      ],
+      "scale": 5000
+    }
   },
   {
     "id": "Banten",
-    "provinsi": "Banten"
+    "provinsi": "Banten",
+    "total_relawan": 177,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        107.32,
+        -7.48
+      ],
+      "scale": 10000
+    }
   },
   {
     "id": "Bengkulu",
-    "provinsi": "Bengkulu"
+    "provinsi": "Bengkulu",
+    "total_relawan": 313,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        105.8,
+        -6.5
+      ],
+      "scale": 4800
+    }
   },
   {
     "id": "Gorontalo",
-    "provinsi": "Gorontalo"
+    "provinsi": "Gorontalo",
+    "total_relawan": 33,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        124.2,
+        -0.76
+      ],
+      "scale": 7500
+    }
   },
   {
     "id": "Irian Jaya Barat",
-    "provinsi": "Papua Barat"
+    "provinsi": "Papua Barat",
+    "total_relawan": 24,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        137.3,
+        -6
+      ],
+      "scale": 2800
+    }
   },
   {
     "id": "Jakarta Raya",
-    "provinsi": "Jakarta"
+    "provinsi": "Jakarta",
+    "total_relawan": 439,
+    "projectionConfig": {
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "center": [
+        107.17,
+        -6.5
+      ],
+      "scale": 40000
+    }
   },
   {
     "id": "Jambi",
-    "provinsi": "Jambi"
+    "provinsi": "Jambi",
+    "total_relawan": 31
   },
   {
     "id": "Jawa Barat",
-    "provinsi": "Jawa Barat"
+    "provinsi": "Jawa Barat",
+    "total_relawan": 14740
   },
   {
     "id": "Jawa Tengah",
-    "provinsi": "Jawa Tengah"
+    "provinsi": "Jawa Tengah",
+    "total_relawan": 9133
   },
   {
     "id": "Jawa Timur",
-    "provinsi": "Jawa Timur"
+    "provinsi": "Jawa Timur",
+    "total_relawan": 24734
   },
   {
     "id": "Kalimantan Barat",
-    "provinsi": "Kalimantan Barat"
+    "provinsi": "Kalimantan Barat",
+    "total_relawan": 43
   },
   {
     "id": "Kalimantan Selatan",
-    "provinsi": "Kalimantan Selatan"
+    "provinsi": "Kalimantan Selatan",
+    "total_relawan": 157
   },
   {
     "id": "Kalimantan Tengah",
-    "provinsi": "Kalimantan Tengah"
+    "provinsi": "Kalimantan Tengah",
+    "total_relawan": 17
   },
   {
     "id": "Kalimantan Timur",
-    "provinsi": "Kalimantan Timur"
+    "provinsi": "Kalimantan Timur",
+    "total_relawan": 243
   },
   {
     "id": "Kalimantan Utara",
-    "provinsi": "Kalimantan Utara"
+    "provinsi": "Kalimantan Utara",
+    "total_relawan": 38
   },
   {
     "id": "Kepulauan Riau",
-    "provinsi": "Kepulauan Riau"
+    "provinsi": "Kepulauan Riau",
+    "total_relawan": 69
   },
   {
     "id": "Lampung",
-    "provinsi": "Lampung"
+    "provinsi": "Lampung",
+    "total_relawan": 83
   },
   {
     "id": "Maluku Utara",
-    "provinsi": "Maluku Utara"
+    "provinsi": "Maluku Utara",
+    "total_relawan": 47
   },
   {
     "id": "Maluku",
-    "provinsi": "Maluku"
+    "provinsi": "Maluku",
+    "total_relawan": 5
   },
   {
     "id": "Nusa Tenggara Barat",
-    "provinsi": "Nusa Tenggara Barat"
+    "provinsi": "Nusa Tenggara Barat",
+    "total_relawan": 87
   },
   {
     "id": "Nusa Tenggara Timur",
-    "provinsi": "Nusa Tenggara Timur"
+    "provinsi": "Nusa Tenggara Timur",
+    "total_relawan": 134
   },
   {
     "id": "Papua",
-    "provinsi": "Papua"
+    "provinsi": "Papua",
+    "total_relawan": 11
   },
   {
     "id": "Riau",
-    "provinsi": "Riau"
+    "provinsi": "Riau",
+    "total_relawan": 75
   },
   {
     "id": "Sulawesi Barat",
-    "provinsi": "Sulawesi Barat"
+    "provinsi": "Sulawesi Barat",
+    "total_relawan": 35
   },
   {
     "id": "Sulawesi Selatan",
-    "provinsi": "Sulawesi Selatan"
+    "provinsi": "Sulawesi Selatan",
+    "total_relawan": 528
   },
   {
     "id": "Sulawesi Tengah",
-    "provinsi": "Sulawesi Tengah"
+    "provinsi": "Sulawesi Tengah",
+    "total_relawan": 94
   },
   {
     "id": "Sulawesi Tenggara",
-    "provinsi": "Sulawesi Tenggara"
+    "provinsi": "Sulawesi Tenggara",
+    "total_relawan": 28
   },
   {
     "id": "Sulawesi Utara",
-    "provinsi": "Sulawesi Utara"
+    "provinsi": "Sulawesi Utara",
+    "total_relawan": 9
   },
   {
     "id": "Sumatera Barat",
-    "provinsi": "Sumatera Barat"
+    "provinsi": "Sumatera Barat",
+    "total_relawan": 32
   },
   {
     "id": "Sumatera Selatan",
-    "provinsi": "Sumatera Selatan"
+    "provinsi": "Sumatera Selatan",
+    "total_relawan": 505
   },
   {
     "id": "Sumatera Utara",
-    "provinsi": "Sumatera Utara"
+    "provinsi": "Sumatera Utara",
+    "total_relawan": 664
   },
   {
     "id": "Yogyakarta",
-    "provinsi": "Yogyakarta"
+    "provinsi": "Yogyakarta",
+    "total_relawan": 1146
   }
 ]

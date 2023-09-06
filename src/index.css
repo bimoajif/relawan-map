@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 #root {
-  @apply px-4 max-h-screen sm:px-0 w-full bg-sky-300;
-  background-image: radial-gradient(hsla(206, 56%, 49%, 0.893) 1px, transparent 0),
-    radial-gradient(hsla(199, 66%, 58%, 0.818) 1px, transparent 0);
+  @apply px-4 max-h-screen sm:px-0 w-full bg-blue-50;
+  background-image: radial-gradient(hsla(0, 0%, 53%, 0.893) 1px, transparent 0),
+    radial-gradient(hsla(0, 0%, 92%, 0.818) 1px, transparent 0);
   background-size: 50px 50px;
   background-position: 0 0, 25px 25px;
   -webkit-animation: slide 2s linear infinite;

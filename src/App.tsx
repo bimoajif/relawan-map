@@ -6,7 +6,7 @@ import Indonesia2 from "../src/maps/provinsi/Data/indonesia-topojson-city-regenc
 import Anies from "./assets/anies.png"
 import DataProvinsi from "../src/maps/provinsi/Data/ind-data-prov-rev.json"
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
-import { IconButton, Pane, Text, SideSheet, Tooltip, PlusIcon, MinusIcon, ResetIcon, Card } from 'evergreen-ui'
+import { IconButton, Pane, Text, SideSheet, Tooltip, PlusIcon, MinusIcon, ResetIcon, Card, Heading } from 'evergreen-ui'
 import { scaleQuantile } from "d3-scale";
 import { COLOR_RANGE, DEFAULT_COLOR } from './assets/color';
 import { ILocation } from './assets/interface';
@@ -14,15 +14,11 @@ import './App.css'
 
 function App() {
 
-  const mapWidth = 800;
-  const mapHeight = 600;
-
   const [tooltipContent, setTooltipContent] = useState("")
   const [isShown, setIsShown] = useState(false)
   const [selectedProvince, setSelectedProvince] = useState<ILocation | undefined>(undefined);
 
   const [zoom, setZoom] = useState(1);
-  const [center, setCenter] = useState([0, 0]);
 
   function handleZoom(isZoom: boolean) {
     if (isZoom == true) {
@@ -40,29 +36,81 @@ function App() {
     <>
       <main>
         <Pane
-          display="flex"
+          display="grid"
+          position="relative"
+          justifyContent="center"
+          alignItems="stretch"
+        >
+          <Pane
+            display="flex"
+            justifySelf="center"
+            position="fixed"
+            flexDirection="row"
+          >
+            <Card
+              height={100}
+              width={100}
+              margin={8}
+              marginRight={5}
+              background='#F8FAF8'
+              display="flex"
+              border="default"
+              borderRadius={20}
+              justifyContent="center"
+            >
+              <img src={Anies} className='object-fit scale-95' />
+            </Card>
+
+            <Card
+              display="flex"
+              flexDirection="column"
+              background='#F8FAF8'
+              height={100}
+              margin={8}
+              padding={10}
+              paddingLeft={30}
+              paddingRight={30}
+              border="default"
+              justifyContent="center"
+              alignItems="start"
+              borderRadius={20}
+            >
+              <Text className='font-extrabold col-span-2 text-[#223140] text-4xl'>
+                Peta Persebaran Relawan Anies
+              </Text>
+              <Text className='font-light col-span-2 text-[#616E6E] text-2xl'>
+                {tooltipContent == "" ? "Pilih lokasi..." : tooltipContent}
+              </Text>
+            </Card>
+          </Pane>
+
+        </Pane>
+        <Pane
+          display="grid"
+          position="fixed"
+          height="100vh"
           justifyContent="center"
         >
           <Card
-            display="flex"
-            position="fixed"
-            flexDirection="column"
-            background='#F8FAF8'
-            margin={8}
-            padding={10}
-            paddingLeft={30}
-            paddingRight={30}
+            alignSelf="center"
             border="default"
-            justifyContent="center"
-            alignItems="center"
+            background="#F8FAF8"
+            padding={10}
+            marginLeft={8}
             borderRadius={20}
           >
-            <Text className='font-extrabold col-span-2 text-[#223140] text-5xl'>
-              Data Relawan Anies
-            </Text>
-            <Text className='font-light col-span-2 text-[#616E6E] text-2xl'>
-              {tooltipContent == "" ? "pilih lokasi..." : tooltipContent}
-            </Text>
+            <Pane>
+              <IconButton size='large' margin={4} marginRight={8} icon={PlusIcon} onClick={() => handleZoom(true)}></IconButton>
+              <Text>Zoom In</Text>
+            </Pane>
+            <Pane>
+              <IconButton size='large' margin={4} marginRight={8} icon={MinusIcon} onClick={() => handleZoom(false)}></IconButton>
+              <Text>Zoom Out</Text>
+            </Pane>
+            <Pane>
+              <IconButton size='large' margin={4} marginRight={8} icon={ResetIcon} onClick={() => window.location.reload()}></IconButton>
+              <Text>Reset</Text>
+            </Pane>
           </Card>
         </Pane>
         <section className="flex">
@@ -70,7 +118,7 @@ function App() {
             projection="geoMercator"
             projectionConfig={{
               rotate: [0, 0, 0],
-              center: [118, -3],
+              center: [118, -1.6],
               scale: 1250,
             }}
             className="w-screen h-screen"
@@ -145,7 +193,7 @@ function App() {
                             total_relawan: current?.total_relawan,
                             projection_config: current?.projection_config
                           })
-                          // setIsShown(true)
+                          setIsShown(true)
                         }}
                         style={{
                           default: { outline: 'none' },
@@ -191,67 +239,35 @@ function App() {
               setSelectedProvince(undefined)
             }}
           >
-
-
-            <Pane className='m-5'>
-              <p className='text-slate-500'>Peta Sebaran Jumlah Relawan pada Provinsi</p>
-              <h1 className='heading'>
-                {selectedProvince?.provinsi}
-              </h1>
-              <hr />
-              <Tooltip content='gell'>
-                <Pane className='h-[50vh] overflow-hidden'>
-                  <ComposableMap
-                    projection="geoMercator"
-                    projectionConfig={{
-                      rotate: selectedProvince?.projection_config?.rotate as [number, number, number],
-                      center: selectedProvince?.projection_config?.center as [number, number],
-                      scale: selectedProvince?.projection_config?.scale,
-                    }}
-                    className="w-screen h-auto"
-                  >
-                    <Geographies geography={Indonesia2}>
-                      {({ geographies }) =>
-                        geographies.map((geo) => {
-                          return (
-                            <Geography
-                              data-tooltip-id="province-tooltip"
-                              key={geo.rsmKey}
-                              geography={geo}
-                              stroke="#f0f0f0"
-                              strokeWidth={1}
-                              className="animation duration-100 ease-out"
-                              style={{
-                                default: { fill: "#fff" },
-                                hover: { fill: "#4065F6", stroke: "#000" },
-                                pressed: { fill: "#4065F6" }
-                              }}
-                            />
-                          )
-                        })
-                      }
-                    </Geographies>
-                  </ComposableMap>
-                </Pane>
-              </Tooltip>
-              adjlsadjls
+            <Pane zIndex={1} flexShrink={0} elevation={0} backgroundColor="white">
+              <Pane
+                display="flex"
+                flexDirection="column"
+                padding={16}
+                borderBottom="default"
+              >
+                <Heading size={100} color="#696f8c">
+                  Peta Sebaran Jumlah Relawan Anies pada Kota
+                </Heading>
+                <Heading size={900} className='font-extrabold'>
+                  {selectedProvince?.provinsi}
+                </Heading>
+              </Pane>
+            </Pane>
+            <Pane flex="1" background="tint2" padding={16}>
+              <Card
+                backgroundColor="white"
+                elevation={0}
+                height={240}
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+              >
+                <Heading>GRAFIK-GRAFIK</Heading>
+              </Card>
             </Pane>
           </SideSheet>
           <div className='fixed flex-row items-center justify-center p-3'>
-            <Pane alignItems="center" justifyContent="center" height="screen">
-              <Pane alignItems="center">
-                <IconButton size='large' margin={4} marginRight={8} icon={PlusIcon} onClick={() => handleZoom(true)}></IconButton>
-                <Text>Zoom In</Text>
-              </Pane>
-              <Pane>
-                <IconButton size='large' margin={4} marginRight={8} icon={MinusIcon} onClick={() => handleZoom(false)}></IconButton>
-                <Text>Zoom Out</Text>
-              </Pane>
-              <Pane>
-                <IconButton size='large' margin={4} marginRight={8} icon={ResetIcon} onClick={() => window.location.reload()}></IconButton>
-                <Text>Reset</Text>
-              </Pane>
-            </Pane>
           </div>
         </section>
       </main >

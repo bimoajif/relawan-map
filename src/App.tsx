@@ -2,7 +2,8 @@
 import { useState } from 'react'
 import Indonesia from "../src/maps/provinsi/provinces-simplified-topo.json"
 import WorldMap from "../src/maps/world-countries.json"
-import Indonesia2 from "../src/maps/provinsi/Data/indonesia-topojson-city-regency.json"
+import Jawa from "../src/maps/provinsi/Data/data_jawa.json"
+// import Indonesia2 from "../src/maps/provinsi/Data/indonesia-topojson-city-regency.json"
 import Anies from "./assets/anies.png"
 import DataProvinsi from "../src/maps/provinsi/Data/ind-data-prov-rev.json"
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
@@ -157,6 +158,7 @@ function App() {
                       strokeWidth={8}
                       strokeLinecap="round"
                       strokeLinejoin="round"
+                      fill='#ffffff'
                       key={geo.rsmKey}
                       geography={geo}
                       style={{
@@ -169,7 +171,7 @@ function App() {
                 }
               </Geographies>
 
-              <Geographies geography={Indonesia2}>
+              <Geographies geography={Jawa}>
                 {({ geographies }) =>
                   geographies.map((geo) => {
                     const current = DataProvinsi.find(
@@ -181,11 +183,11 @@ function App() {
                         key={geo.rsmKey}
                         geography={geo}
                         stroke="#081829"
-                        fill={current ? colorScale(current.total_relawan) : DEFAULT_COLOR}
+                        fill={geo.properties.JML_RELAWAN ? colorScale(geo.properties.JML_RELAWAN) : DEFAULT_COLOR}
                         strokeWidth={0.2}
                         className="animation duration-100 ease-out"
                         onMouseEnter={() => {
-                          setTooltipContent(`${geo.properties.NAME_2 as string}: ${current?.total_relawan} Relawan`);
+                          setTooltipContent(`${geo.properties.NAME_2 as string}: ${geo.properties.JML_RELAWAN} Relawan`);
                         }}
                         onMouseLeave={() => {
                           setTooltipContent("");

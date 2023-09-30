@@ -6,8 +6,8 @@ import Indonesia2 from "../src/maps/provinsi/Data/indonesia-topojson-city-regenc
 import Anies from "./assets/anies.png"
 import DataProvinsi from "../src/maps/provinsi/Data/ind-data-prov-rev.json"
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
-import { IconButton, Pane, Text, SideSheet, Tooltip, PlusIcon, MinusIcon, ResetIcon, Card, Heading } from 'evergreen-ui'
-import { scaleQuantile } from "d3-scale";
+import { IconButton, Pane, Text, SideSheet, PlusIcon, MinusIcon, ResetIcon, Card, Heading, Dialog } from 'evergreen-ui'
+import * as d3 from "d3";
 import { COLOR_RANGE, DEFAULT_COLOR } from './assets/color';
 import { ILocation } from './assets/interface';
 import './App.css'
@@ -28,13 +28,15 @@ function App() {
     }
   }
 
-  const colorScale = scaleQuantile<string>()
+  const colorScale = d3.scaleQuantile<string>()
     .domain(DataProvinsi.map((d) => d.total_relawan))
-    .range(COLOR_RANGE);
+    .range(COLOR_RANGE)
+
 
   return (
     <>
       <main>
+        {/* <TipsDialog /> */}
         <Pane
           display="grid"
           position="relative"
@@ -75,7 +77,7 @@ function App() {
               alignItems="start"
               borderRadius={20}
             >
-              <Text className='font-extrabold col-span-2 text-[#223140] text-4xl'>
+              <Text className='font-extrabold col-span-2 text-[#0F1436] text-4xl'>
                 Peta Persebaran Relawan Anies
               </Text>
               <Text className='font-light col-span-2 text-[#616E6E] text-2xl'>
@@ -118,8 +120,10 @@ function App() {
             projection="geoMercator"
             projectionConfig={{
               rotate: [0, 0, 0],
-              center: [118, -1.6],
-              scale: 1250,
+              center: [104, -11.3],
+              scale: 9000
+              // center: [118, -1.6],
+              // scale: 1250,
             }}
             className="w-screen h-screen"
           >
@@ -276,3 +280,37 @@ function App() {
 }
 
 export default App
+
+function TipsDialog() {
+
+  const [dialogShown, setDialogShown] = useState(true)
+  return (
+    <Dialog
+      isShown={dialogShown}
+      title="Perhatian!"
+      onCloseComplete={() => setDialogShown(false)}
+      hasFooter={false}
+    >
+      <Card
+        alignSelf="center"
+        border="default"
+        background="#F8FAF8"
+        padding={10}
+        borderRadius={20}
+      >
+        <Pane>
+          <IconButton size='large' margin={4} marginRight={8} icon={PlusIcon}></IconButton>
+          <Text>Zoom In</Text>
+        </Pane>
+        <Pane>
+          <IconButton size='large' margin={4} marginRight={8} icon={MinusIcon}></IconButton>
+          <Text>Zoom Out</Text>
+        </Pane>
+        <Pane>
+          <IconButton size='large' margin={4} marginRight={8} icon={ResetIcon}></IconButton>
+          <Text>Reset</Text>
+        </Pane>
+      </Card>
+    </Dialog>
+  );
+}

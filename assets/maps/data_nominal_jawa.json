@@ -1,0 +1,541 @@
+[
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Bangkalan",
+    "Jumlah_Relawan": 16,
+    "latitude": -7.0306912,
+    "longitude": 112.92
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Banjarnegara",
+    "Jumlah_Relawan": 250,
+    "latitude": -7.32,
+    "longitude": 109.681396
+  },
+  {
+    "Provinsi": "Yogyakarta",
+    "Kabupaten": "Bantul",
+    "Jumlah_Relawan": 162,
+    "latitude": -7.9,
+    "longitude": 110.38
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Banyumas",
+    "Jumlah_Relawan": 64,
+    "latitude": -7.44,
+    "longitude": 109.140438
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Banyuwangi",
+    "Jumlah_Relawan": 80,
+    "latitude": -8.25,
+    "longitude": 114.2
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Batang",
+    "Jumlah_Relawan": 276,
+    "latitude": -7,
+    "longitude": 109.87
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Blitar",
+    "Jumlah_Relawan": 141,
+    "latitude": -8.1014419,
+    "longitude": 112.25
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Blora",
+    "Jumlah_Relawan": 343,
+    "latitude": -7.06,
+    "longitude": 111.4
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Bojonegoro",
+    "Jumlah_Relawan": 20,
+    "latitude": -7.25,
+    "longitude": 111.8
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Bondowoso",
+    "Jumlah_Relawan": 28,
+    "latitude": -7.917704,
+    "longitude": 113.9
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Boyolali",
+    "Jumlah_Relawan": 136,
+    "latitude": -7.42,
+    "longitude": 110.7
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Brebes",
+    "Jumlah_Relawan": 90,
+    "latitude": -7,
+    "longitude": 108.9
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Cilacap",
+    "Jumlah_Relawan": 765,
+    "latitude": -7.5,
+    "longitude": 108.86
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Demak",
+    "Jumlah_Relawan": 1377,
+    "latitude": -6.888115,
+    "longitude": 110.639297
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Gresik",
+    "Jumlah_Relawan": 118,
+    "latitude": -6.84,
+    "longitude": 112.57
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Grobogan",
+    "Jumlah_Relawan": 370,
+    "latitude": -7.1,
+    "longitude": 110.9625854
+  },
+  {
+    "Provinsi": "Yogyakarta",
+    "Kabupaten": "Gunung Kidul",
+    "Jumlah_Relawan": 177,
+    "latitude": -8.0305091,
+    "longitude": 110.6168921
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Jember",
+    "Jumlah_Relawan": 2198,
+    "latitude": -8.2,
+    "longitude": 113.63
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Jepara",
+    "Jumlah_Relawan": 36,
+    "latitude": -6.5596059,
+    "longitude": 110.78
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Jombang",
+    "Jumlah_Relawan": 97,
+    "latitude": -7.5468395,
+    "longitude": 112.26
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Karanganyar",
+    "Jumlah_Relawan": 132,
+    "latitude": -7.62,
+    "longitude": 111.06
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kebumen",
+    "Jumlah_Relawan": 171,
+    "latitude": -7.64,
+    "longitude": 109.6
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kediri",
+    "Jumlah_Relawan": 330,
+    "latitude": -7.88,
+    "longitude": 112.19
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kendal",
+    "Jumlah_Relawan": 31,
+    "latitude": -7,
+    "longitude": 110.15
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Klaten",
+    "Jumlah_Relawan": 71,
+    "latitude": -7.7,
+    "longitude": 110.595497
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Batu",
+    "Jumlah_Relawan": 13,
+    "latitude": -7.8671,
+    "longitude": 112.5239
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Kediri",
+    "Jumlah_Relawan": 211,
+    "latitude": -7.816895,
+    "longitude": 112.011398
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Madiun",
+    "Jumlah_Relawan": 8,
+    "latitude": -7.58,
+    "longitude": 111.513702
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kota Magelang",
+    "Jumlah_Relawan": 301,
+    "latitude": -7.52,
+    "longitude": 110.22
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Malang",
+    "Jumlah_Relawan": 204,
+    "latitude": -8,
+    "longitude": 112.626503
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Mojokerto",
+    "Jumlah_Relawan": 9,
+    "latitude": -7.42,
+    "longitude": 112.4336111
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Pasuruan",
+    "Jumlah_Relawan": 10,
+    "latitude": -7.58,
+    "longitude": 113
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kota Pekalongan",
+    "Jumlah_Relawan": 24,
+    "latitude": -6.81,
+    "longitude": 109.7
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Probolinggo",
+    "Jumlah_Relawan": 17,
+    "latitude": -7.7,
+    "longitude": 113.24
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kota Salatiga",
+    "Jumlah_Relawan": 5,
+    "latitude": -7.302328,
+    "longitude": 110.4729
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kota Semarang",
+    "Jumlah_Relawan": 68,
+    "latitude": -7,
+    "longitude": 110.4
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Kota Surabaya",
+    "Jumlah_Relawan": 1107,
+    "latitude": -7.289166,
+    "longitude": 112.734398
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kota Surakarta",
+    "Jumlah_Relawan": 942,
+    "latitude": -7.5666667,
+    "longitude": 110.8166667
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kota Tegal",
+    "Jumlah_Relawan": 29,
+    "latitude": -6.8,
+    "longitude": 109.1333333
+  },
+  {
+    "Provinsi": "Yogyakarta",
+    "Kabupaten": "Kota Yogyakarta",
+    "Jumlah_Relawan": 481,
+    "latitude": -7.797224,
+    "longitude": 110.368797
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Kudus",
+    "Jumlah_Relawan": 70,
+    "latitude": -6.804087,
+    "longitude": 110.88
+  },
+  {
+    "Provinsi": "Yogyakarta",
+    "Kabupaten": "Kulon Progo",
+    "Jumlah_Relawan": 152,
+    "latitude": -7.9,
+    "longitude": 110.1640846
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Lamongan",
+    "Jumlah_Relawan": 489,
+    "latitude": -7.1,
+    "longitude": 112.35
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Lumajang",
+    "Jumlah_Relawan": 4312,
+    "latitude": -8.137022,
+    "longitude": 113.13
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Madiun",
+    "Jumlah_Relawan": 20,
+    "latitude": -7.68,
+    "longitude": 111.65
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Magelang",
+    "Jumlah_Relawan": 614,
+    "latitude": -7.43,
+    "longitude": 110.26
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Magetan",
+    "Jumlah_Relawan": 92,
+    "latitude": -7.6493413,
+    "longitude": 111.3381593
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Malang",
+    "Jumlah_Relawan": 101,
+    "latitude": -8.2,
+    "longitude": 112.64
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Mojokerto",
+    "Jumlah_Relawan": 36,
+    "latitude": -7.6,
+    "longitude": 112.51
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Nganjuk",
+    "Jumlah_Relawan": 89,
+    "latitude": -7.58,
+    "longitude": 111.95
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Ngawi",
+    "Jumlah_Relawan": 20,
+    "latitude": -7.43,
+    "longitude": 111.37
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Pacitan",
+    "Jumlah_Relawan": 21,
+    "latitude": -8.14,
+    "longitude": 111.15
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Pamekasan",
+    "Jumlah_Relawan": 156,
+    "latitude": -7.07,
+    "longitude": 113.5
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Pasuruan",
+    "Jumlah_Relawan": 75,
+    "latitude": -7.75,
+    "longitude": 112.85
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Pati",
+    "Jumlah_Relawan": 41,
+    "latitude": -6.751338,
+    "longitude": 111.1
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Pekalongan",
+    "Jumlah_Relawan": 12,
+    "latitude": -7.07,
+    "longitude": 109.63
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Pemalang",
+    "Jumlah_Relawan": 61,
+    "latitude": -7.03,
+    "longitude": 109.39
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Ponorogo",
+    "Jumlah_Relawan": 150,
+    "latitude": -7.9,
+    "longitude": 111.508
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Probolinggo",
+    "Jumlah_Relawan": 1562,
+    "latitude": -7.86,
+    "longitude": 113.28
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Purbalingga",
+    "Jumlah_Relawan": 764,
+    "latitude": -7.33,
+    "longitude": 109.4
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Purworejo",
+    "Jumlah_Relawan": 397,
+    "latitude": -7.709731,
+    "longitude": 109.97
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Rembang",
+    "Jumlah_Relawan": 90,
+    "latitude": -6.77,
+    "longitude": 111.45
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Sampang",
+    "Jumlah_Relawan": 186,
+    "latitude": -7.0306912,
+    "longitude": 113.25
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Semarang",
+    "Jumlah_Relawan": 99,
+    "latitude": -7.2,
+    "longitude": 110.46
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Sidoarjo",
+    "Jumlah_Relawan": 1277,
+    "latitude": -7.4530278,
+    "longitude": 112.7173389
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Situbondo",
+    "Jumlah_Relawan": 9365,
+    "latitude": -7.64,
+    "longitude": 113.84
+  },
+  {
+    "Provinsi": "Yogyakarta",
+    "Kabupaten": "Sleman",
+    "Jumlah_Relawan": 173,
+    "latitude": -7.7,
+    "longitude": 110.38
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Sragen",
+    "Jumlah_Relawan": 14,
+    "latitude": -7.38,
+    "longitude": 110.97
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Sukoharjo",
+    "Jumlah_Relawan": 269,
+    "latitude": -7.6808818,
+    "longitude": 110.8195292
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Sumenep",
+    "Jumlah_Relawan": 162,
+    "latitude": -6.97,
+    "longitude": 113.8
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Tegal",
+    "Jumlah_Relawan": 79,
+    "latitude": -7,
+    "longitude": 109.16
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Temanggung",
+    "Jumlah_Relawan": 610,
+    "latitude": -7.25,
+    "longitude": 110.12
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Trenggalek",
+    "Jumlah_Relawan": 110,
+    "latitude": -8.17,
+    "longitude": 111.61
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Tuban",
+    "Jumlah_Relawan": 644,
+    "latitude": -6.94,
+    "longitude": 111.87
+  },
+  {
+    "Provinsi": "Jawa Timur",
+    "Kabupaten": "Tulungagung",
+    "Jumlah_Relawan": 1224,
+    "latitude": -8.15,
+    "longitude": 111.9
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Wonogiri",
+    "Jumlah_Relawan": 8,
+    "latitude": -7.9,
+    "longitude": 110.98
+  },
+  {
+    "Provinsi": "Jawa Tengah",
+    "Kabupaten": "Wonosobo",
+    "Jumlah_Relawan": 487,
+    "latitude": -7.4,
+    "longitude": 109.94
+  }
+]

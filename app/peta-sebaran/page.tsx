@@ -1,7 +1,6 @@
 'use client';
 
 import { Card, Metric, Text, Title, BarList, Flex, Grid } from '@tremor/react';
-import TableRelawan from './table';
 import Maps from './maps'
 
 export default function PlaygroundPage() {

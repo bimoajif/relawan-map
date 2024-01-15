@@ -4746,6 +4746,815 @@
             "ID_0": 103,
             "ISO": "IDN",
             "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15391,
+            "NAME_2": "Bandung",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.BD",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 3.71968457756,
+            "Shape_Area": 0.250600651989
+          },
+          "arcs": [
+            [
+              696,
+              697,
+              698,
+              699,
+              700
+            ],
+            [
+              701,
+              702
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15392,
+            "NAME_2": "Banjar",
+            "VARNAME_2": "Kota Banjar",
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.BA",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.557374304779,
+            "Shape_Area": 0.0101305130455
+          },
+          "arcs": [
+            [
+              703,
+              -36
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15393,
+            "NAME_2": "Bekasi",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.BS",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 2.1379029427,
+            "Shape_Area": 0.103170912613
+          },
+          "arcs": [
+            [
+              704,
+              705,
+              706,
+              -655,
+              -659,
+              707
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15394,
+            "NAME_2": "Bogor",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.BR",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 3.40824929595,
+            "Shape_Area": 0.242935366413
+          },
+          "arcs": [
+            [
+              708,
+              709,
+              710,
+              -82,
+              -103,
+              711,
+              712,
+              -706
+            ],
+            [
+              713
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15395,
+            "NAME_2": "Ciamis",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.CS",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 3.67424249732,
+            "Shape_Area": 0.22274653013
+          },
+          "arcs": [
+            [
+              714,
+              -37,
+              -704,
+              -35,
+              715,
+              716,
+              717,
+              718,
+              719
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15396,
+            "NAME_2": "Cianjur",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.CJ",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 3.923193252,
+            "Shape_Area": 0.298646605656
+          },
+          "arcs": [
+            [
+              -700,
+              720,
+              721,
+              722,
+              -710,
+              723,
+              724
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15397,
+            "NAME_2": "Cimahi",
+            "VARNAME_2": "Kota Cimahi",
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.CI",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.29667671957,
+            "Shape_Area": 0.003315442774
+          },
+          "arcs": [
+            [
+              725,
+              -703
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15398,
+            "NAME_2": "Cirebon",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.CR",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 2.35136655032,
+            "Shape_Area": 0.0878097902
+          },
+          "arcs": [
+            [
+              726,
+              727,
+              728,
+              -28,
+              729,
+              730,
+              731
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15399,
+            "NAME_2": "Depok",
+            "VARNAME_2": "Kota Depok",
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.DE",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.707624207418,
+            "Shape_Area": 0.016046936414
+          },
+          "arcs": [
+            [
+              -657,
+              732,
+              -712,
+              -102,
+              -654
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15400,
+            "NAME_2": "Garut",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.GA",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 3.11912183173,
+            "Shape_Area": 0.25217551696
+          },
+          "arcs": [
+            [
+              733,
+              734,
+              -721,
+              -699,
+              735
+            ]
+          ]
+        },
+        {
+          "type": "MultiPolygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15401,
+            "NAME_2": "Indramayu",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.IN",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 2.67004969562,
+            "Shape_Area": 0.16974160302
+          },
+          "arcs": [
+            [
+              [
+                -732,
+                736,
+                737,
+                738,
+                739
+              ]
+            ],
+            [
+              [
+                740
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15402,
+            "NAME_2": "Karawang",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.KA",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 2.7849694792,
+            "Shape_Area": 0.157940973462
+          },
+          "arcs": [
+            [
+              741,
+              742,
+              -724,
+              -709,
+              -705,
+              743
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15403,
+            "NAME_2": "Kota Bandung",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.BN",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.613343909848,
+            "Shape_Area": 0.012316931707
+          },
+          "arcs": [
+            [
+              -726,
+              -702
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15404,
+            "NAME_2": "Kota Bekasi",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.BK",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.860907043231,
+            "Shape_Area": 0.01895612398
+          },
+          "arcs": [
+            [
+              -713,
+              -733,
+              -656,
+              -707
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15405,
+            "NAME_2": "Kota Bogor",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.BG",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.532854369831,
+            "Shape_Area": 0.0088651506345
+          },
+          "arcs": [
+            [
+              -714
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15406,
+            "NAME_2": "Kota Cirebon",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.CM",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.224127648849,
+            "Shape_Area": 0.002041320708
+          },
+          "arcs": [
+            [
+              -728,
+              744
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15407,
+            "NAME_2": "Kota Sukabumi",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.SM",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.397458063973,
+            "Shape_Area": 0.005030630805
+          },
+          "arcs": [
+            [
+              745
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15408,
+            "NAME_2": "Kota Tasikmalaya",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.TM",
+            "CC_2": null,
+            "TYPE_2": "Kotamadya",
+            "ENGTYPE_2": "Municipality",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 0.549661105275,
+            "Shape_Area": 0.0150266907075
+          },
+          "arcs": [
+            [
+              -718,
+              746
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15409,
+            "NAME_2": "Kuningan",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.KU",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 1.61167028687,
+            "Shape_Area": 0.099870714831
+          },
+          "arcs": [
+            [
+              -27,
+              -38,
+              -715,
+              747,
+              -730
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15410,
+            "NAME_2": "Majalengka",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.MA",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 1.88791985976,
+            "Shape_Area": 0.107343907868
+          },
+          "arcs": [
+            [
+              -731,
+              -748,
+              -720,
+              748,
+              749,
+              -737
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15411,
+            "NAME_2": "Purwakarta",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.PU",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 1.51515564171,
+            "Shape_Area": 0.0776436010665
+          },
+          "arcs": [
+            [
+              750,
+              -701,
+              -725,
+              -743
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15412,
+            "NAME_2": "Subang",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.SB",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 2.09497235363,
+            "Shape_Area": 0.176465683818
+          },
+          "arcs": [
+            [
+              -739,
+              751,
+              -697,
+              -751,
+              -742,
+              752
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15413,
+            "NAME_2": "Sukabumi",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.SR",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 3.68953401751,
+            "Shape_Area": 0.339006758746
+          },
+          "arcs": [
+            [
+              -723,
+              753,
+              -83,
+              -711
+            ],
+            [
+              -746
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15414,
+            "NAME_2": "Sumedang",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.SD",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 1.76128672652,
+            "Shape_Area": 0.128738111876
+          },
+          "arcs": [
+            [
+              -750,
+              754,
+              -736,
+              -698,
+              -752,
+              -738
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
+            "ID_1": 1263,
+            "NAME_1": "Jawa Barat",
+            "ID_2": 15415,
+            "NAME_2": "Tasikmalaya",
+            "VARNAME_2": null,
+            "NL_NAME_2": null,
+            "HASC_2": "ID.JR.TA",
+            "CC_2": null,
+            "TYPE_2": "Kabupaten",
+            "ENGTYPE_2": "Regency",
+            "VALIDFR_2": "Unknown",
+            "VALIDTO_2": "Present",
+            "REMARKS_2": null,
+            "Shape_Leng": 3.01565837633,
+            "Shape_Area": 0.225006491079
+          },
+          "arcs": [
+            [
+              -749,
+              -719,
+              -747,
+              -717,
+              755,
+              -734,
+              -755
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "ID_0": 103,
+            "ISO": "IDN",
+            "NAME_0": "Indonesia",
             "ID_1": 1264,
             "NAME_1": "Jawa Tengah",
             "ID_2": 15416,

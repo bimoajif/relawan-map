@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from 'react'
 import Indonesia from "../src/maps/provinsi/provinces-simplified-topo.json"
 import WorldMap from "../src/maps/world-countries.json"
@@ -6,10 +5,8 @@ import Jawa from "../src/maps/provinsi/Data/data_jawa.json"
 // import Indonesia2 from "../src/maps/provinsi/Data/indonesia-topojson-city-regency.json"
 import Anies from "./assets/anies.png"
 import DataProvinsi from "../src/maps/provinsi/Data/ind-data-prov-rev.json"
-import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
+import { ComposableMap, Geographies, Geography, ZoomableGroup, Marker } from "react-simple-maps";
 import { IconButton, Pane, Text, SideSheet, PlusIcon, MinusIcon, ResetIcon, Card, Heading, Dialog } from 'evergreen-ui'
-import * as d3 from "d3";
-import { COLOR_RANGE, DEFAULT_COLOR } from './assets/color';
 import { ILocation } from './assets/interface';
 import './App.css'
 
@@ -28,10 +25,6 @@ function App() {
       zoom == 1 ? setZoom(1) : setZoom(zoom - 1)
     }
   }
-
-  const colorScale = d3.scaleQuantile<string>()
-    .domain(DataProvinsi.map((d) => d.total_relawan))
-    .range(COLOR_RANGE)
 
 
   return (
@@ -121,10 +114,10 @@ function App() {
             projection="geoMercator"
             projectionConfig={{
               rotate: [0, 0, 0],
-              center: [104, -11.3],
-              scale: 9000
-              // center: [118, -1.6],
-              // scale: 1250,
+              // center: [104, -11.3],
+              // scale: 9000
+              center: [118, -1.6],
+              scale: 1250,
             }}
             className="w-screen h-screen"
           >
@@ -154,8 +147,8 @@ function App() {
                 {({ geographies }) =>
                   geographies.map((geo) => (
                     <Geography
-                      stroke='#E7ECE8'
-                      strokeWidth={8}
+                      stroke='rgba(0, 27, 85, 0.05'
+                      strokeWidth={0.3}
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       fill='#ffffff'
@@ -177,14 +170,15 @@ function App() {
                     const current = DataProvinsi.find(
                       (s) => s.provinsi === geo.properties.NAME_1
                     );
+                    const transparency = (geo.properties.JML_RELAWAN)/10000
                     return (
                       <Geography
                         data-tooltip-id="province-tooltip"
                         key={geo.rsmKey}
                         geography={geo}
-                        stroke="#081829"
-                        fill={geo.properties.JML_RELAWAN ? colorScale(geo.properties.JML_RELAWAN) : DEFAULT_COLOR}
-                        strokeWidth={0.2}
+                        stroke={`rgba(0, 27, 85, ${0.02}`}
+                        fill={`rgba(0, 27, 85, ${transparency}`}
+                        strokeWidth={0.3}
                         className="animation duration-100 ease-out"
                         onMouseEnter={() => {
                           setTooltipContent(`${geo.properties.NAME_2 as string}: ${geo.properties.JML_RELAWAN} Relawan`);
@@ -194,9 +188,9 @@ function App() {
                         }}
                         onClick={() => {
                           setSelectedProvince({
-                            id: current?.id,
-                            provinsi: current?.provinsi,
-                            total_relawan: current?.total_relawan,
+                            id: geo.properties.ID_0,
+                            provinsi: geo.properties.NAME_2,
+                            total_relawan: geo.properties.JML_RELAWAN,
                             projection_config: current?.projection_config
                           })
                           setIsShown(true)
@@ -211,6 +205,14 @@ function App() {
                   })
                 }
               </Geographies>
+              <Marker coordinates={[100.8, -0.74]}>
+                <text fontSize={1} textAnchor="middle" fill="#000" fontWeight="bold">
+                  Pemalang
+                </text>
+                <text fontSize={1} y={1} textAnchor="middle" fill="#000">
+                  61 relawan
+                </text>
+              </Marker>
             </ZoomableGroup>
           </ComposableMap>
           <div className='absolute flex justify-center top-0 m-10 items-center gap-1'>
@@ -283,6 +285,7 @@ function App() {
 
 export default App
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function TipsDialog() {
 
   const [dialogShown, setDialogShown] = useState(true)
